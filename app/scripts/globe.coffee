@@ -9,6 +9,10 @@ class Globe
     # GLOBE
     globeDefaultRotation: [0, -10, 0]      # basic rotation used on first display
 
+    # DATA RESSOURCES URL
+    urlWorldTopojson: "data/world_110m_admin_countries-capitals_simplified.json"
+    urlCountryToRegion : "data/country_to_region.json"
+
   # Declare variables
   svg = projection = path = groupPaths = null
 
@@ -62,6 +66,34 @@ class Globe
                 .datum(graticule)
                 .attr("class", "graticule")
                 .attr("d", path)
+
+
+  #
+  # Load and display data
+  #
+  start: () ->
+    queue()
+      .defer(d3.json, config.urlWorldTopojson)
+      .defer(d3.json, config.urlCountryToRegion)
+      .await(loadedDataCallback)
+
+
+  #
+  # Compute data after loading :
+  #  - Build country paths
+  #
+  loadedDataCallback = (error, worldTopo, countryToRegion) ->
+
+    # Add countries to globe
+    countries = topojson.feature(worldTopo, worldTopo.objects.countries).features
+    capitals = topojson.feature(worldTopo, worldTopo.objects.capitals).features
+
+    groupPaths.selectAll(".country")
+                .data(countries)
+                .enter()
+                  .append("path")
+                  .attr("d", path)
+                  .attr("class", "country")
 
 
 

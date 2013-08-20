@@ -20,4 +20,15 @@
         stroke-width: .5px;
         stroke-opacity: .5;
     }
+
+    .country {
+        fill: #333;
+        stroke: #666;
+        stroke-width: 1px;
+        transition: all 0.5s;
+
+        &:hover {
+            fill: #777;
+        }
+    }
 }
