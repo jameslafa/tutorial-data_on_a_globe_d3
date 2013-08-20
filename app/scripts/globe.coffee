@@ -166,7 +166,7 @@ class Globe
   #
   # Redraw every path after sphere rotation
   #
-  redrawPathsOnRotationOrScale = (rotation, scale, duration = 1) ->
+  redrawPathsOnRotationOrScale = (rotation, scale) ->
     currentRotation = rotation
 
     projection
