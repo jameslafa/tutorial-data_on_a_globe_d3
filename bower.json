@@ -1,0 +1,26 @@
+{
+  "name": "data-on-a-globe-with-d3",
+  "version": "0.0.0",
+  "dependencies": {
+    "modernizr": "~2.6.2",
+    "jquery": "~2.0.3",
+    "d3": "~3.2.8",
+    "queue-async": "~1.0.4",
+    "raf.js": "~0.0.3",
+    "topojson": "~1.3.0",
+    "underscore": "~1.5.1"
+  },
+  "description": "Add some data on a globe with D3",
+  "authors": [
+    "James Lafa (AngryKatze)"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.angrykatze.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

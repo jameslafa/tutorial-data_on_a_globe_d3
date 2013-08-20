@@ -1,0 +1,47 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
+        <!-- build:js scripts/vendor/modernizr.js -->
+        <script src="bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
+    </head>
+    <body>
+        <div class="globe-container level1" style="width:600px; margin: 10px auto;">
+            <div class="zoomouticon"></div>
+            <div class="tooltip"></div>
+        </div>
+
+        <!-- build:js scripts/main.js -->
+        <script src="bower_components/jquery/jquery.js"></script>
+        <script src="bower_components/d3/d3.js"></script>
+        <script src="bower_components/topojson/topojson.js"></script>
+        <script src="bower_components/queue-async/queue.js"></script>
+        <script src="bower_components/underscore/underscore.js"></script>
+        <script src="bower_components/raf.js/raf.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js(.tmp) scripts/coffee.js -->
+        <script src="scripts/globe.js"></script>
+        <!-- endbuild -->
+
+        <script>
+            // Initialize new instance of globe
+            globe = new Globe({})
+
+            // Initialize SVG
+            globe.initSVG()
+        </script>
+</body>
+</html>
