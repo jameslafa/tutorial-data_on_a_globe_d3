@@ -15,7 +15,6 @@ class Globe
 
     # DATA RESSOURCES URL
     urlWorldTopojson: "data/world_110m_admin_countries-capitals_simplified.json"
-    urlCountryToRegion: "data/country_to_region.json"
     urlLifeExpectancy: "data/life_expectancy_at_birth.json"
 
   # Declare variables
@@ -89,7 +88,6 @@ class Globe
   start: () ->
     queue()
       .defer(d3.json, config.urlWorldTopojson)
-      .defer(d3.json, config.urlCountryToRegion)
       .defer(d3.json, config.urlLifeExpectancy)
       .await(loadedDataCallback)
 
@@ -98,7 +96,7 @@ class Globe
   # Compute data after loading :
   #  - Build country paths
   #
-  loadedDataCallback = (error, worldTopo, countryToRegion, lifeExpectancy) ->
+  loadedDataCallback = (error, worldTopo, lifeExpectancy) ->
 
     # Add countries to globe
     countries = topojson.feature(worldTopo, worldTopo.objects.countries).features
