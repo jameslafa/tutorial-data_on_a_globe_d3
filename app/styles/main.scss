@@ -1,3 +1,5 @@
+@import "compass";
+
 .globe-container{
     background: #fff;
     color: #333;
@@ -22,7 +24,6 @@
     }
 
     .country {
-        fill: #333;
         stroke: #666;
         stroke-width: 1px;
         transition: all 0.5s;
@@ -30,5 +31,35 @@
         &:hover {
             fill: #777;
         }
+    }
+
+    .legend {
+        @include background-image(linear-gradient(left, #ff5a00 0%,#47ff00 100%));
+        box-shadow: 0px 0px 1px #666;
+        color: #fff;
+        height: 25px;
+        line-height: 25px;
+        margin-top: 20px;
+        width: 600px;
+
+        div {
+            font-size: 20px;
+            line-height: 25px;
+
+            &.min{
+                float:left;
+                margin-left: 5px;
+            }
+            &.max{
+                float:right;
+                margin-right: 5px;
+            }
+        }
+    }
+
+    .title {
+        font-size: 20px;
+        margin-top: 10px;
+        text-align: center;
     }
 }

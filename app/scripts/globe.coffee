@@ -6,12 +6,17 @@ class Globe
     svgHeight: 600
     svgWidth: 600
 
+    # Design
+    colorRange: ["#ff5a00", "#47ff00"]      # countries are filled with a gradient between these
+                                            # 2 colors
+
     # GLOBE
-    globeDefaultRotation: [0, -10, 0]      # basic rotation used on first display
+    globeDefaultRotation: [0, -10, 0]       # basic rotation used on first display
 
     # DATA RESSOURCES URL
     urlWorldTopojson: "data/world_110m_admin_countries-capitals_simplified.json"
-    urlCountryToRegion : "data/country_to_region.json"
+    urlCountryToRegion: "data/country_to_region.json"
+    urlLifeExpectancy: "data/life_expectancy_at_birth.json"
 
   # Declare variables
   svg = projection = path = groupPaths = null
@@ -19,9 +24,10 @@ class Globe
 
   currentRotation = config.globeDefaultRotation     # Store the current rotation of the globe
   currentLevel    = 1                               # Store the current level (1 or 2)
-  manualRotationActivated = false                   # If true, mouse move calculation with me activated for manual rotate
+  manualRotationActivated = false                   # If true, mouse move calculation with me
+                                                    # activated for manual rotate
 
-  groupPathsSelection = {}          # Store the groupPath selection of element to avoid reselecting DOM
+  groupPathsSelection = {}    # Store the groupPath selection of element to avoid reselecting DOM
 
   #
   # Contruct class instance
@@ -41,7 +47,7 @@ class Globe
 
     # Create svg tag
     svg = d3.select(config.svgBlockSelector)
-            .append("svg")
+            .insert("svg", ":first-child")
             .attr("width", config.svgWidth)
             .attr("height", config.svgHeight)
             .on("mousedown", mouseDown)
@@ -84,6 +90,7 @@ class Globe
     queue()
       .defer(d3.json, config.urlWorldTopojson)
       .defer(d3.json, config.urlCountryToRegion)
+      .defer(d3.json, config.urlLifeExpectancy)
       .await(loadedDataCallback)
 
 
@@ -91,19 +98,37 @@ class Globe
   # Compute data after loading :
   #  - Build country paths
   #
-  loadedDataCallback = (error, worldTopo, countryToRegion) ->
+  loadedDataCallback = (error, worldTopo, countryToRegion, lifeExpectancy) ->
 
     # Add countries to globe
     countries = topojson.feature(worldTopo, worldTopo.objects.countries).features
-    capitals = topojson.feature(worldTopo, worldTopo.objects.capitals).features
 
+    # Get the minimum and maximum (domain) of life expectancy
+    lifeExpectancyDomain = d3.extent(_.pluck(lifeExpectancy, "age"))
+
+    $(".legend .min").text(lifeExpectancyDomain[0])
+    $(".legend .max").text(lifeExpectancyDomain[1])
+
+    # Create a function that will interpolate rgb colors depending the value the create
+    # a nice gradient
+    colorScale = d3.scale.linear()
+                    .domain(lifeExpectancyDomain)
+                    .interpolate(d3.interpolateRgb)
+                    .range(config.colorRange)
+
+    # Create every countries
     groupPaths.selectAll(".country")
                 .data(countries)
                 .enter()
                   .append("path")
                   .attr("d", path)
                   .attr("class", "country")
-
+                  .attr("fill", (d) ->
+                    if _.has(lifeExpectancy, d.id)
+                      colorScale(lifeExpectancy[d.id].age)
+                    else
+                      "#777"
+                  )
 
   ############
   # ROTATION #
@@ -166,7 +191,7 @@ class Globe
   #
   # Redraw every path after sphere rotation
   #
-  redrawPathsOnRotationOrScale = (rotation, scale, duration = 1) ->
+  redrawPathsOnRotationOrScale = (rotation, scale) ->
     currentRotation = rotation
 
     projection

@@ -1,0 +1,986 @@
+{
+  "ARB": {
+    "name": "Arab World",
+    "age": 70.61
+  },
+  "CSS": {
+    "name": "Caribbean small states",
+    "age": 72.38
+  },
+  "EAS": {
+    "name": "East Asia & Pacific (all income levels)",
+    "age": 73.43
+  },
+  "EAP": {
+    "name": "East Asia & Pacific (developing only)",
+    "age": 72.41
+  },
+  "EMU": {
+    "name": "Euro area",
+    "age": 81.3
+  },
+  "ECS": {
+    "name": "Europe & Central Asia (all income levels)",
+    "age": 76.18
+  },
+  "ECA": {
+    "name": "Europe & Central Asia (developing only)",
+    "age": 71.86
+  },
+  "EUU": {
+    "name": "European Union",
+    "age": 80.18
+  },
+  "HPC": {
+    "name": "Heavily indebted poor countries (HIPC)",
+    "age": 56.02
+  },
+  "HIC": {
+    "name": "High income",
+    "age": 78.84
+  },
+  "NOC": {
+    "name": "High income: nonOECD",
+    "age": 72.33
+  },
+  "OEC": {
+    "name": "High income: OECD",
+    "age": 80.38
+  },
+  "LCN": {
+    "name": "Latin America & Caribbean (all income levels)",
+    "age": 74.4
+  },
+  "LAC": {
+    "name": "Latin America & Caribbean (developing only)",
+    "age": 74.23
+  },
+  "LDC": {
+    "name": "Least developed countries: UN classification",
+    "age": 59.13
+  },
+  "LMY": {
+    "name": "Low & middle income",
+    "age": 67.88
+  },
+  "LIC": {
+    "name": "Low income",
+    "age": 59.37
+  },
+  "LMC": {
+    "name": "Lower middle income",
+    "age": 65.76
+  },
+  "MEA": {
+    "name": "Middle East & North Africa (all income levels)",
+    "age": 72.8
+  },
+  "MNA": {
+    "name": "Middle East & North Africa (developing only)",
+    "age": 72.31
+  },
+  "MIC": {
+    "name": "Middle income",
+    "age": 69.32
+  },
+  "NAC": {
+    "name": "North America",
+    "age": 78.87
+  },
+  "INX": {
+    "name": "Not classified",
+    "age": null
+  },
+  "OED": {
+    "name": "OECD members",
+    "age": 79.63
+  },
+  "OSS": {
+    "name": "Other small states",
+    "age": 58.82
+  },
+  "PSS": {
+    "name": "Pacific island small states",
+    "age": 69.59
+  },
+  "SST": {
+    "name": "Small states",
+    "age": 62.81
+  },
+  "SAS": {
+    "name": "South Asia",
+    "age": 65.68
+  },
+  "SSF": {
+    "name": "Sub-Saharan Africa (all income levels)",
+    "age": 54.7
+  },
+  "SSA": {
+    "name": "Sub-Saharan Africa (developing only)",
+    "age": 54.7
+  },
+  "UMC": {
+    "name": "Upper middle income",
+    "age": 73.02
+  },
+  "WLD": {
+    "name": "World",
+    "age": 69.92
+  },
+  "AFG": {
+    "name": "Afghanistan",
+    "age": 48.68
+  },
+  "ALB": {
+    "name": "Albania",
+    "age": 77.04
+  },
+  "DZA": {
+    "name": "Algeria",
+    "age": 73.08
+  },
+  "ASM": {
+    "name": "American Samoa",
+    "age": null
+  },
+  "AND": {
+    "name": "Andorra",
+    "age": null
+  },
+  "AGO": {
+    "name": "Angola",
+    "age": 51.06
+  },
+  "ATG": {
+    "name": "Antigua and Barbuda",
+    "age": null
+  },
+  "ARG": {
+    "name": "Argentina",
+    "age": 75.8
+  },
+  "ARM": {
+    "name": "Armenia",
+    "age": 73.92
+  },
+  "ABW": {
+    "name": "Aruba",
+    "age": 75.11
+  },
+  "AUS": {
+    "name": "Australia",
+    "age": 81.85
+  },
+  "AUT": {
+    "name": "Austria",
+    "age": 81.03
+  },
+  "AZE": {
+    "name": "Azerbaijan",
+    "age": 70.65
+  },
+  "BHS": {
+    "name": "Bahamas, The",
+    "age": 75.45
+  },
+  "BHR": {
+    "name": "Bahrain",
+    "age": 75.16
+  },
+  "BGD": {
+    "name": "Bangladesh",
+    "age": 68.94
+  },
+  "BRB": {
+    "name": "Barbados",
+    "age": 76.74
+  },
+  "BLR": {
+    "name": "Belarus",
+    "age": 70.65
+  },
+  "BEL": {
+    "name": "Belgium",
+    "age": 80.49
+  },
+  "BLZ": {
+    "name": "Belize",
+    "age": 76.05
+  },
+  "BEN": {
+    "name": "Benin",
+    "age": 56.01
+  },
+  "BMU": {
+    "name": "Bermuda",
+    "age": 79.29
+  },
+  "BTN": {
+    "name": "Bhutan",
+    "age": 67.28
+  },
+  "BOL": {
+    "name": "Bolivia",
+    "age": 66.58
+  },
+  "BIH": {
+    "name": "Bosnia and Herzegovina",
+    "age": 75.55
+  },
+  "BWA": {
+    "name": "Botswana",
+    "age": 53.02
+  },
+  "BRA": {
+    "name": "Brazil",
+    "age": 73.44
+  },
+  "BRN": {
+    "name": "Brunei Darussalam",
+    "age": 78.07
+  },
+  "BGR": {
+    "name": "Bulgaria",
+    "age": 74.16
+  },
+  "BFA": {
+    "name": "Burkina Faso",
+    "age": 55.36
+  },
+  "BDI": {
+    "name": "Burundi",
+    "age": 50.34
+  },
+  "KHM": {
+    "name": "Cambodia",
+    "age": 62.98
+  },
+  "CMR": {
+    "name": "Cameroon",
+    "age": 51.58
+  },
+  "CAN": {
+    "name": "Canada",
+    "age": 80.93
+  },
+  "CPV": {
+    "name": "Cape Verde",
+    "age": 73.92
+  },
+  "CYM": {
+    "name": "Cayman Islands",
+    "age": null
+  },
+  "CAF": {
+    "name": "Central African Republic",
+    "age": 48.35
+  },
+  "TCD": {
+    "name": "Chad",
+    "age": 49.52
+  },
+  "CHI": {
+    "name": "Channel Islands",
+    "age": 79.97
+  },
+  "CHL": {
+    "name": "Chile",
+    "age": 79.02
+  },
+  "CHN": {
+    "name": "China",
+    "age": 73.49
+  },
+  "COL": {
+    "name": "Colombia",
+    "age": 73.64
+  },
+  "COM": {
+    "name": "Comoros",
+    "age": 61.04
+  },
+  "COD": {
+    "name": "Congo, Dem. Rep.",
+    "age": 48.37
+  },
+  "COG": {
+    "name": "Congo, Rep.",
+    "age": 57.36
+  },
+  "CRI": {
+    "name": "Costa Rica",
+    "age": 79.32
+  },
+  "CIV": {
+    "name": "Cote d'Ivoire",
+    "age": 55.42
+  },
+  "HRV": {
+    "name": "Croatia",
+    "age": 76.88
+  },
+  "CUB": {
+    "name": "Cuba",
+    "age": 79.13
+  },
+  "CUW": {
+    "name": "Curacao",
+    "age": null
+  },
+  "CYP": {
+    "name": "Cyprus",
+    "age": 79.56
+  },
+  "CZE": {
+    "name": "Czech Republic",
+    "age": 77.87
+  },
+  "DNK": {
+    "name": "Denmark",
+    "age": 79.8
+  },
+  "DJI": {
+    "name": "Djibouti",
+    "age": 57.91
+  },
+  "DMA": {
+    "name": "Dominica",
+    "age": null
+  },
+  "DOM": {
+    "name": "Dominican Republic",
+    "age": 73.44
+  },
+  "ECU": {
+    "name": "Ecuador",
+    "age": 75.63
+  },
+  "EGY": {
+    "name": "Egypt, Arab Rep.",
+    "age": 73.2
+  },
+  "SLV": {
+    "name": "El Salvador",
+    "age": 71.95
+  },
+  "GNQ": {
+    "name": "Equatorial Guinea",
+    "age": 51.14
+  },
+  "ERI": {
+    "name": "Eritrea",
+    "age": 61.42
+  },
+  "EST": {
+    "name": "Estonia",
+    "age": 76.13
+  },
+  "ETH": {
+    "name": "Ethiopia",
+    "age": 59.24
+  },
+  "FRO": {
+    "name": "Faeroe Islands",
+    "age": 81.93
+  },
+  "FJI": {
+    "name": "Fiji",
+    "age": 69.35
+  },
+  "FIN": {
+    "name": "Finland",
+    "age": 80.47
+  },
+  "FRA": {
+    "name": "France",
+    "age": 81.67
+  },
+  "PYF": {
+    "name": "French Polynesia",
+    "age": 75.26
+  },
+  "GAB": {
+    "name": "Gabon",
+    "age": 62.69
+  },
+  "GMB": {
+    "name": "Gambia, The",
+    "age": 58.48
+  },
+  "GEO": {
+    "name": "Georgia",
+    "age": null
+  },
+  "DEU": {
+    "name": "Germany",
+    "age": 80.74
+  },
+  "GHA": {
+    "name": "Ghana",
+    "age": 64.22
+  },
+  "GRC": {
+    "name": "Greece",
+    "age": 80.74
+  },
+  "GRL": {
+    "name": "Greenland",
+    "age": null
+  },
+  "GRD": {
+    "name": "Grenada",
+    "age": 75.83
+  },
+  "GUM": {
+    "name": "Guam",
+    "age": 76.17
+  },
+  "GTM": {
+    "name": "Guatemala",
+    "age": 71.07
+  },
+  "GIN": {
+    "name": "Guinea",
+    "age": 54.09
+  },
+  "GNB": {
+    "name": "Guinea-Bissau",
+    "age": 48.11
+  },
+  "GUY": {
+    "name": "Guyana",
+    "age": 69.86
+  },
+  "HTI": {
+    "name": "Haiti",
+    "age": 62.06
+  },
+  "HND": {
+    "name": "Honduras",
+    "age": 73.11
+  },
+  "HKG": {
+    "name": "Hong Kong SAR, China",
+    "age": 83.42
+  },
+  "HUN": {
+    "name": "Hungary",
+    "age": 74.86
+  },
+  "ISL": {
+    "name": "Iceland",
+    "age": 82.36
+  },
+  "IND": {
+    "name": "India",
+    "age": 65.48
+  },
+  "IDN": {
+    "name": "Indonesia",
+    "age": 69.32
+  },
+  "IRN": {
+    "name": "Iran, Islamic Rep.",
+    "age": 73
+  },
+  "IRQ": {
+    "name": "Iraq",
+    "age": 68.98
+  },
+  "IRL": {
+    "name": "Ireland",
+    "age": 80.5
+  },
+  "IMN": {
+    "name": "Isle of Man",
+    "age": null
+  },
+  "ISR": {
+    "name": "Israel",
+    "age": 81.76
+  },
+  "ITA": {
+    "name": "Italy",
+    "age": 82.09
+  },
+  "JAM": {
+    "name": "Jamaica",
+    "age": 73.08
+  },
+  "JPN": {
+    "name": "Japan",
+    "age": 82.59
+  },
+  "JOR": {
+    "name": "Jordan",
+    "age": 73.43
+  },
+  "KAZ": {
+    "name": "Kazakhstan",
+    "age": 68.89
+  },
+  "KEN": {
+    "name": "Kenya",
+    "age": 57.08
+  },
+  "KIR": {
+    "name": "Kiribati",
+    "age": null
+  },
+  "PRK": {
+    "name": "Korea, Dem. Rep.",
+    "age": 68.68
+  },
+  "KOR": {
+    "name": "Korea, Rep.",
+    "age": 80.87
+  },
+  "KSV": {
+    "name": "Kosovo",
+    "age": 70.15
+  },
+  "KWT": {
+    "name": "Kuwait",
+    "age": 74.73
+  },
+  "KGZ": {
+    "name": "Kyrgyz Republic",
+    "age": 69.6
+  },
+  "LAO": {
+    "name": "Lao PDR",
+    "age": 67.43
+  },
+  "LVA": {
+    "name": "Latvia",
+    "age": 73.58
+  },
+  "LBN": {
+    "name": "Lebanon",
+    "age": 72.59
+  },
+  "LSO": {
+    "name": "Lesotho",
+    "age": 47.98
+  },
+  "LBR": {
+    "name": "Liberia",
+    "age": 56.74
+  },
+  "LBY": {
+    "name": "Libya",
+    "age": 74.95
+  },
+  "LIE": {
+    "name": "Liechtenstein",
+    "age": null
+  },
+  "LTU": {
+    "name": "Lithuania",
+    "age": 73.56
+  },
+  "LUX": {
+    "name": "Luxembourg",
+    "age": 80.99
+  },
+  "MAC": {
+    "name": "Macao SAR, China",
+    "age": 81.02
+  },
+  "MKD": {
+    "name": "Macedonia, FYR",
+    "age": 74.79
+  },
+  "MDG": {
+    "name": "Madagascar",
+    "age": 66.7
+  },
+  "MWI": {
+    "name": "Malawi",
+    "age": 54.14
+  },
+  "MYS": {
+    "name": "Malaysia",
+    "age": 74.26
+  },
+  "MDV": {
+    "name": "Maldives",
+    "age": 76.88
+  },
+  "MLI": {
+    "name": "Mali",
+    "age": 51.37
+  },
+  "MLT": {
+    "name": "Malta",
+    "age": 82
+  },
+  "MHL": {
+    "name": "Marshall Islands",
+    "age": null
+  },
+  "MRT": {
+    "name": "Mauritania",
+    "age": 58.55
+  },
+  "MUS": {
+    "name": "Mauritius",
+    "age": 73.27
+  },
+  "MEX": {
+    "name": "Mexico",
+    "age": 76.89
+  },
+  "FSM": {
+    "name": "Micronesia, Fed. Sts.",
+    "age": 68.95
+  },
+  "MDA": {
+    "name": "Moldova",
+    "age": 69.21
+  },
+  "MCO": {
+    "name": "Monaco",
+    "age": null
+  },
+  "MNG": {
+    "name": "Mongolia",
+    "age": 68.49
+  },
+  "MNE": {
+    "name": "Montenegro",
+    "age": 74.5
+  },
+  "MAR": {
+    "name": "Morocco",
+    "age": 72.13
+  },
+  "MOZ": {
+    "name": "Mozambique",
+    "age": 50.15
+  },
+  "MMR": {
+    "name": "Myanmar",
+    "age": 65.15
+  },
+  "NAM": {
+    "name": "Namibia",
+    "age": 62.33
+  },
+  "NPL": {
+    "name": "Nepal",
+    "age": 68.73
+  },
+  "NLD": {
+    "name": "Netherlands",
+    "age": 81.2
+  },
+  "NCL": {
+    "name": "New Caledonia",
+    "age": 76.61
+  },
+  "NZL": {
+    "name": "New Zealand",
+    "age": 80.9
+  },
+  "NIC": {
+    "name": "Nicaragua",
+    "age": 74
+  },
+  "NER": {
+    "name": "Niger",
+    "age": 54.69
+  },
+  "NGA": {
+    "name": "Nigeria",
+    "age": 51.86
+  },
+  "MNP": {
+    "name": "Northern Mariana Islands",
+    "age": null
+  },
+  "NOR": {
+    "name": "Norway",
+    "age": 81.3
+  },
+  "OMN": {
+    "name": "Oman",
+    "age": 73.34
+  },
+  "PAK": {
+    "name": "Pakistan",
+    "age": 65.45
+  },
+  "PLW": {
+    "name": "Palau",
+    "age": null
+  },
+  "PAN": {
+    "name": "Panama",
+    "age": 76.15
+  },
+  "PNG": {
+    "name": "Papua New Guinea",
+    "age": 62.8
+  },
+  "PRY": {
+    "name": "Paraguay",
+    "age": 72.48
+  },
+  "PER": {
+    "name": "Peru",
+    "age": 73.98
+  },
+  "PHL": {
+    "name": "Philippines",
+    "age": 68.76
+  },
+  "POL": {
+    "name": "Poland",
+    "age": 76.75
+  },
+  "PRT": {
+    "name": "Portugal",
+    "age": 80.72
+  },
+  "PRI": {
+    "name": "Puerto Rico",
+    "age": 79.03
+  },
+  "QAT": {
+    "name": "Qatar",
+    "age": 78.25
+  },
+  "ROU": {
+    "name": "Romania",
+    "age": 74.51
+  },
+  "RUS": {
+    "name": "Russian Federation",
+    "age": 69
+  },
+  "RWA": {
+    "name": "Rwanda",
+    "age": 55.39
+  },
+  "WSM": {
+    "name": "Samoa",
+    "age": 72.54
+  },
+  "SMR": {
+    "name": "San Marino",
+    "age": 83.32
+  },
+  "STP": {
+    "name": "Sao Tome and Principe",
+    "age": 64.59
+  },
+  "SAU": {
+    "name": "Saudi Arabia",
+    "age": 74.06
+  },
+  "SEN": {
+    "name": "Senegal",
+    "age": 59.27
+  },
+  "SRB": {
+    "name": "Serbia",
+    "age": 74.59
+  },
+  "SYC": {
+    "name": "Seychelles",
+    "age": 73.46
+  },
+  "SLE": {
+    "name": "Sierra Leone",
+    "age": 47.78
+  },
+  "SGP": {
+    "name": "Singapore",
+    "age": 81.89
+  },
+  "SXM": {
+    "name": "Sint Maarten (Dutch part)",
+    "age": null
+  },
+  "SVK": {
+    "name": "Slovak Republic",
+    "age": 75.96
+  },
+  "SVN": {
+    "name": "Slovenia",
+    "age": 79.97
+  },
+  "SLB": {
+    "name": "Solomon Islands",
+    "age": 67.86
+  },
+  "SOM": {
+    "name": "Somalia",
+    "age": 51.19
+  },
+  "ZAF": {
+    "name": "South Africa",
+    "age": 52.61
+  },
+  "SSD": {
+    "name": "South Sudan",
+    "age": null
+  },
+  "ESP": {
+    "name": "Spain",
+    "age": 82.33
+  },
+  "LKA": {
+    "name": "Sri Lanka",
+    "age": 74.9
+  },
+  "KNA": {
+    "name": "St. Kitts and Nevis",
+    "age": null
+  },
+  "LCA": {
+    "name": "St. Lucia",
+    "age": 74.61
+  },
+  "MAF": {
+    "name": "St. Martin (French part)",
+    "age": null
+  },
+  "VCT": {
+    "name": "St. Vincent and the Grenadines",
+    "age": 72.3
+  },
+  "SDN": {
+    "name": "Sudan",
+    "age": 61.45
+  },
+  "SUR": {
+    "name": "Suriname",
+    "age": 70.58
+  },
+  "SWZ": {
+    "name": "Swaziland",
+    "age": 48.66
+  },
+  "SWE": {
+    "name": "Sweden",
+    "age": 81.8
+  },
+  "CHE": {
+    "name": "Switzerland",
+    "age": 82.7
+  },
+  "SYR": {
+    "name": "Syrian Arab Republic",
+    "age": 75.84
+  },
+  "TJK": {
+    "name": "Tajikistan",
+    "age": 67.54
+  },
+  "TZA": {
+    "name": "Tanzania",
+    "age": 58.15
+  },
+  "THA": {
+    "name": "Thailand",
+    "age": 74.09
+  },
+  "TLS": {
+    "name": "Timor-Leste",
+    "age": 62.46
+  },
+  "TGO": {
+    "name": "Togo",
+    "age": 57.03
+  },
+  "TON": {
+    "name": "Tonga",
+    "age": 72.29
+  },
+  "TTO": {
+    "name": "Trinidad and Tobago",
+    "age": 69.96
+  },
+  "TUN": {
+    "name": "Tunisia",
+    "age": 74.75
+  },
+  "TUR": {
+    "name": "Turkey",
+    "age": 73.94
+  },
+  "TKM": {
+    "name": "Turkmenistan",
+    "age": 65
+  },
+  "TCA": {
+    "name": "Turks and Caicos Islands",
+    "age": null
+  },
+  "TUV": {
+    "name": "Tuvalu",
+    "age": null
+  },
+  "UGA": {
+    "name": "Uganda",
+    "age": 54.07
+  },
+  "UKR": {
+    "name": "Ukraine",
+    "age": 70.81
+  },
+  "ARE": {
+    "name": "United Arab Emirates",
+    "age": 76.74
+  },
+  "GBR": {
+    "name": "United Kingdom",
+    "age": 80.75
+  },
+  "USA": {
+    "name": "United States",
+    "age": 78.64
+  },
+  "URY": {
+    "name": "Uruguay",
+    "age": 76.41
+  },
+  "UZB": {
+    "name": "Uzbekistan",
+    "age": 68.27
+  },
+  "VUT": {
+    "name": "Vanuatu",
+    "age": 71.1
+  },
+  "VEN": {
+    "name": "Venezuela, RB",
+    "age": 74.31
+  },
+  "VNM": {
+    "name": "Vietnam",
+    "age": 75.05
+  },
+  "VIR": {
+    "name": "Virgin Islands (U.S.)",
+    "age": 79.31
+  },
+  "PSE": {
+    "name": "West Bank and Gaza",
+    "age": 72.83
+  },
+  "YEM": {
+    "name": "Yemen, Rep.",
+    "age": 65.45
+  },
+  "ZMB": {
+    "name": "Zambia",
+    "age": 48.97
+  },
+  "ZWE": {
+    "name": "Zimbabwe",
+    "age": 51.24
+  }
+}
