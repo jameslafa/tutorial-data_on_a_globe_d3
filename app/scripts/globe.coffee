@@ -136,7 +136,7 @@ class Globe
   # Store coodinates of the mouse when user click
   #
   mouseDown = () ->
-    # remember where the mouse was pressed, in canvas coords
+    # remember where the mouse was pressed
     m0 = [d3.event.pageX, d3.event.pageY]
     o0 = projection.rotate()
 
@@ -176,7 +176,7 @@ class Globe
   #
   rotate = () ->
     # The new projection is calculated using the new rotation
-    # Path are then redrawed
+    # Path are then redrawn
     if manualRotationActivated
       projection.rotate currentRotation
 
